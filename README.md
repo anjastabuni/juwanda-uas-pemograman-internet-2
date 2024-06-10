@@ -19,15 +19,15 @@ Proyek ini adalah aplikasi sederhana untuk mengelola data mahasiswa dengan mener
 
 ### Halaman Utama
 
-![Halaman Utama](images/homepage.png)
+![Halaman Utama](index.png)
 
 ### Form Tambah Mahasiswa
 
-![Form Tambah Mahasiswa](images/add_form.png)
+![Form Tambah Mahasiswa](tambah.png)
 
 ### Form Edit Mahasiswa
 
-![Form Edit Mahasiswa](images/edit_form.png)
+![Form Edit Mahasiswa](edit.png)
 
 ## Instalasi
 
@@ -47,13 +47,7 @@ Berikut adalah langkah-langkah untuk meng-clone dan menjalankan proyek ini di me
     git clone https://github.com/username/juwanda-uas-pemograman-internet-2.git
     ```
 
-2. **Pindah ke direktori proyek**
-
-    ```bash
-    cd juwanda-uas-pemograman-internet-2
-    ```
-
-3. **Buat database di MySQL**
+2. **Buat database di MySQL**
 
     Buat database baru dengan nama `testdb` (atau nama lain yang Anda inginkan) dan impor file SQL yang terdapat di dalam folder proyek untuk membuat tabel `mahasiswa`.
 
@@ -63,7 +57,7 @@ Berikut adalah langkah-langkah untuk meng-clone dan menjalankan proyek ini di me
     SOURCE path/to/your/sql/file.sql;
     ```
 
-4. **Konfigurasi koneksi database**
+3. **Konfigurasi koneksi database**
 
     Perbarui file `konekdb.php` yang ada di folder `config` dengan kredensial database Anda.
 
@@ -81,11 +75,11 @@ Berikut adalah langkah-langkah untuk meng-clone dan menjalankan proyek ini di me
     ?>
     ```
 
-5. **Jalankan server lokal**
+4. **Jalankan server lokal**
 
     Tempatkan proyek ini di dalam direktori `htdocs` (jika menggunakan XAMPP) atau direktori yang sesuai dengan konfigurasi web server Anda. Kemudian jalankan server lokal.
 
-6. **Akses aplikasi**
+5. **Akses aplikasi**
 
     Buka browser dan akses aplikasi melalui URL berikut:
 
